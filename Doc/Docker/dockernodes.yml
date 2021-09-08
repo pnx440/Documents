@@ -1,0 +1,58 @@
+version: "3"
+
+services:
+
+  node4:
+    image: selenium/node-chrome-debug
+    container_name: web-automation_chrome4
+
+    platform: any
+    environment:
+      HUB_HOST: 192.168.10.37
+      HUB_PORT_4444_TCP_ADDR: hub
+      HUB_PORT_4444_TCP_PORT: 4444
+      NODE_MAX_SESSION: 25
+      NODE_MAX_INSTANCES: 25
+      CHROMEDRIVER_VERSION: 92.0.4515.159
+      CHROMEDRIVER_DIR: C:/Users/mithun/Downloads/Chrome/chromedriver
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - "32773:5900"
+
+
+  node5:
+    image: selenium/node-chrome-debug
+    container_name: web-automation_chrome5
+
+    platform: any
+    environment:
+      HUB_HOST: 192.168.10.37
+      HUB_PORT_4444_TCP_ADDR: hub
+      HUB_PORT_4444_TCP_PORT: 4444
+      NODE_MAX_SESSION: 25
+      NODE_MAX_INSTANCES: 25
+      CHROMEDRIVER_VERSION: 92.0.4515.159
+      CHROMEDRIVER_DIR: C:/Users/mithun/Downloads/Chrome/chromedriver
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - "32774:5900"
+
+  node6:
+    image: selenium/node-chrome-debug
+    container_name: web-automation_chrome6
+
+    platform: any
+    environment:
+      HUB_HOST: 192.168.10.37
+      HUB_PORT_4444_TCP_ADDR: hub
+      HUB_PORT_4444_TCP_PORT: 4444
+      NODE_MAX_SESSION: 25
+      NODE_MAX_INSTANCES: 25
+      CHROMEDRIVER_VERSION: 92.0.4515.159
+      CHROMEDRIVER_DIR: C:/Users/mithun/Downloads/Chrome/chromedriver
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - "32775:5900"

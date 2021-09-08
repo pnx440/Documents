@@ -1,0 +1,1 @@
+cmd /C start/MIN docker-compose -f C:\Users\Mahesha\Desktop\Docker\dockerhubwithnode.yml up

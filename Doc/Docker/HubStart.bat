@@ -1,0 +1,1 @@
+cmd /C start/MIN java -jar C:\Users\mithun\Desktop\GridConfiguration\selenium-server-standalone-3.141.59.jar -role hub -port 4444 -timeout 3000 -browserTimeout 3600

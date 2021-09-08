@@ -1,0 +1,1 @@
+cmd /C start/MIN java "-Dwebdriver.chrome.driver=C:\Users\qaa\Desktop\GridConfiguration\Drivers\chromedriver.exe" -jar "C:\Users\qaa\Desktop\GridConfiguration\selenium-server-standalone-3.141.59.jar" -role node -hub http://192.168.10.217:4444/grid/register -port 5557 -browser "browserName=chrome, version=ANY, platform=WINDOWS" -timeout 300000

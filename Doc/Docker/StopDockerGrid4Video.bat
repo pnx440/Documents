@@ -1,0 +1,1 @@
+cmd /C start/MIN docker-compose -f C:\Users\mithun\Desktop\GridConfiguration\Hub\dockergrid4video.yml down
