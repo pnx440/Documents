@@ -6,7 +6,6 @@ services:
     image: selenium/hub
     container_name: selenium-hub
     environment:
-      HUB_HOST: 192.168.10.216
     ports:
       - "4444:4444"
 
@@ -14,7 +13,6 @@ services:
       GRID_MAX_SESSION: 30000
       GRID_BROWSER_TIMEOUT: 30000
       GRID_TIMEOUT: 30000
-      platform: ANY
 
   node1:
     image: selenium/node-chrome-debug
@@ -23,7 +21,6 @@ services:
       - hub
 
     environment:
-      HUB_HOST: 192.168.10.216
       HUB_PORT_4444_TCP_ADDR: hub
       HUB_PORT_4444_TCP_PORT: 4444
       NODE_MAX_INSTANCES: 5
@@ -43,7 +40,6 @@ services:
       - hub
 
     environment:
-      HUB_HOST: 192.168.10.216
       HUB_PORT_4444_TCP_ADDR: hub
       HUB_PORT_4444_TCP_PORT: 4444
       NODE_MAX_INSTANCES: 5
@@ -63,7 +59,6 @@ services:
       - hub
 
     environment:
-      HUB_HOST: 192.168.10.216
       HUB_PORT_4444_TCP_ADDR: hub
       HUB_PORT_4444_TCP_PORT: 4444
       NODE_MAX_INSTANCES: 5

@@ -1,1 +1,1 @@
-cmd /C start/MIN docker-compose -f C:\Users\mithun\Desktop\GridConfiguration\Hub\dockernodes.yml up
+cmd /C start/MIN docker-compose -f C:\Users\Mahesha\Desktop\Doc\Docker\dockernodes.yml up

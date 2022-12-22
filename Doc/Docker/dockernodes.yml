@@ -11,10 +11,8 @@ services:
       HUB_HOST: 192.168.10.37
       HUB_PORT_4444_TCP_ADDR: hub
       HUB_PORT_4444_TCP_PORT: 4444
-      NODE_MAX_SESSION: 25
-      NODE_MAX_INSTANCES: 25
-      CHROMEDRIVER_VERSION: 92.0.4515.159
-      CHROMEDRIVER_DIR: C:/Users/mithun/Downloads/Chrome/chromedriver
+      NODE_MAX_INSTANCES: 5
+
     volumes:
       - /dev/shm:/dev/shm
     ports:
@@ -30,10 +28,8 @@ services:
       HUB_HOST: 192.168.10.37
       HUB_PORT_4444_TCP_ADDR: hub
       HUB_PORT_4444_TCP_PORT: 4444
-      NODE_MAX_SESSION: 25
-      NODE_MAX_INSTANCES: 25
-      CHROMEDRIVER_VERSION: 92.0.4515.159
-      CHROMEDRIVER_DIR: C:/Users/mithun/Downloads/Chrome/chromedriver
+      NODE_MAX_INSTANCES: 5
+
     volumes:
       - /dev/shm:/dev/shm
     ports:
@@ -48,10 +44,8 @@ services:
       HUB_HOST: 192.168.10.37
       HUB_PORT_4444_TCP_ADDR: hub
       HUB_PORT_4444_TCP_PORT: 4444
-      NODE_MAX_SESSION: 25
-      NODE_MAX_INSTANCES: 25
-      CHROMEDRIVER_VERSION: 92.0.4515.159
-      CHROMEDRIVER_DIR: C:/Users/mithun/Downloads/Chrome/chromedriver
+      NODE_MAX_INSTANCES: 5
+
     volumes:
       - /dev/shm:/dev/shm
     ports:

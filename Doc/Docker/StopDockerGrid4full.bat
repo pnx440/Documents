@@ -1,1 +1,1 @@
-cmd /C start/MIN docker-compose -f C:\Users\mithun\Desktop\GridConfiguration\Hub\dockergrid4full.yml down
+cmd /C start/MIN docker-compose -f C:\Users\Mahesha\Desktop\Doc\Docker\dockergrid4full.yml down
